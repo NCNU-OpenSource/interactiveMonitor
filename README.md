@@ -1,7 +1,7 @@
 # interactiveMonitor
 互動式監控系統
 
-實做材料
+#實做材料
 材料|成本
 -----|-----
 Raspberry Pi|免費(LSA提供)
