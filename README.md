@@ -25,5 +25,5 @@ svn co https://svn.code.sf.net/p/mjpg-streamer/code/
 ```
 cd code/mjpg-streamer
 sudo mjpg_streamer -i "./input_uvc.so -y -r 640x480" -o "./output_http.so -w ./www"
-打開http://IP:port[預設port 8080]
 ```
+open browser @ http://IP:port [default port 8080]
