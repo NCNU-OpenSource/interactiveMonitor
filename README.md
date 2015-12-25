@@ -1,6 +1,12 @@
 # interactiveMonitor
 互動式監控系統
 
+實做材料
+材料|成本
+-----|-----
+Raspberry Pi|免費(LSA提供)
+攝影機|免費(茂林友情出借)
+
 拍照軟體(fswebcam)<br>
 sudo apt-get install fswebcam
 
