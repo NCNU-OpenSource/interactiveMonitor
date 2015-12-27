@@ -34,5 +34,5 @@ studio.sh
 ```
 
 ####References
--https://developer.chrome.com/multidevice/webview/gettingstarted
--http://www.w3schools.com/css/tryit.asp?filename=tryresponsive_image3
+- https://developer.chrome.com/multidevice/webview/gettingstarted
+- http://www.w3schools.com/css/tryit.asp?filename=tryresponsive_image3
