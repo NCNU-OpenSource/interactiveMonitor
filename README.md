@@ -49,10 +49,7 @@ Insert
 @reboot /home/pi/startstreamer.sh
 ```
 Save and exit<br>
-Test
-```
-./startstreamer.sh
-```
+
 ####Android Studio
 ```
 wget https://dl.google.com/dl/android/studio/ide-zips/1.5.1.0/android-studio-ide-141.2456560-linux.zip
