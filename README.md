@@ -24,7 +24,7 @@ cd code/mjpg-streamer
 sudo mjpg_streamer -i "./input_uvc.so -y -r 640x480" -o "./output_http.so -w ./www"
 ```
 open browser @ http://IP:port [default port 8080]
-#####開機啟動mjpg-streamer
+######開機啟動mjpg-streamer
 ```
 sudo nano startstreamer.sh
 ```
