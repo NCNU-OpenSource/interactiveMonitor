@@ -26,7 +26,7 @@ sudo mjpg_streamer -i "./input_uvc.so -y -r 640x480" -o "./output_http.so -w ./w
 open browser @ http://IP:port [default port 8080]
 #####開機啟動mjpg-streamer
 ```
-sudo startstreamer.sh
+sudo nano startstreamer.sh
 ```
 Insert
 ```
@@ -48,8 +48,11 @@ Insert
 ```
 @reboot /home/pi/startstreamer.sh
 ```
-Save and exit
-
+Save and exit<br>
+Test
+```
+./startstreamer.sh
+```
 ####Android Studio
 ```
 wget https://dl.google.com/dl/android/studio/ide-zips/1.5.1.0/android-studio-ide-141.2456560-linux.zip
