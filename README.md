@@ -27,3 +27,11 @@ cd code/mjpg-streamer
 sudo mjpg_streamer -i "./input_uvc.so -y -r 640x480" -o "./output_http.so -w ./www"
 ```
 open browser @ http://IP:port [default port 8080]
+
+####APP即時影片串流(android)
+```
+wget https://dl.google.com/dl/android/studio/ide-zips/1.5.1.0/android-studio-ide-141.2456560-linux.zip
+tar -xzvf android-studio-ide-141.2456560-linux.zip
+cd /android-studio/bin/
+studio.sh
+```
