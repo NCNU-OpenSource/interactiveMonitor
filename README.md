@@ -48,7 +48,11 @@ Insert
 ```
 @reboot /home/pi/startstreamer.sh
 ```
-Save and exit<br>
+Save and exit
+```
+sudo chmod +x startstreamer.sh
+./startstreamer.sh
+```
 
 ####Android Studio
 ```
@@ -60,6 +64,7 @@ studio.sh
 
 ####References
 - https://www.raspberrypi.org/forums/viewtopic.php?t=44039&p=350985
+- http://askubuntu.com/questions/38661/how-do-i-run-sh-files-in-terminal
 - http://askubuntu.com/questions/814/how-to-run-scripts-on-start-up
 - https://developer.chrome.com/multidevice/webview/gettingstarted
 - http://www.w3schools.com/css/tryit.asp?filename=tryresponsive_image3
