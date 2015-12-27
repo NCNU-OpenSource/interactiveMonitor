@@ -24,6 +24,31 @@ cd code/mjpg-streamer
 sudo mjpg_streamer -i "./input_uvc.so -y -r 640x480" -o "./output_http.so -w ./www"
 ```
 open browser @ http://IP:port [default port 8080]
+#####開機啟動mjpg-streamer
+```
+sudo startstreamer.sh
+```
+Insert
+```
+#!/bin/sh
+
+STREAMER=/home/pi/code/mjpg-streamer/mjpg_streamer
+DEVICE=/dev/video0
+RESOLUTION=640x480
+FRAMERATE=30
+HTTP_PORT=8080
+
+$STREAMER -i "/home/pi/code/mjpg-streamer/input_uvc.so $DEVICE -y -r $RESOLUTION -f $FRAMERATE" -o "/home/pi/code/mjpg-streamer/output_http.so -w /home/pi/code/mjpg-streamer/www -p $HTTP_PORT"
+```
+Save and exit
+```
+crontab -e
+```
+Insert
+```
+@reboot /home/pi/startstreamer.sh
+```
+Save and exit
 
 ####Android Studio
 ```
@@ -34,5 +59,7 @@ studio.sh
 ```
 
 ####References
+- https://www.raspberrypi.org/forums/viewtopic.php?t=44039&p=350985
+- http://askubuntu.com/questions/814/how-to-run-scripts-on-start-up
 - https://developer.chrome.com/multidevice/webview/gettingstarted
 - http://www.w3schools.com/css/tryit.asp?filename=tryresponsive_image3
