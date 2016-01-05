@@ -71,3 +71,6 @@ studio.sh
 - http://askubuntu.com/questions/814/how-to-run-scripts-on-start-up
 - https://developer.chrome.com/multidevice/webview/gettingstarted
 - http://www.w3schools.com/css/tryit.asp?filename=tryresponsive_image3
+- https://www.youtube.com/watch?v=2QL5k235258
+- http://www.raspberrypi-spy.co.uk/2012/12/ultrasonic-distance-measurement-using-python-part-1/
+- http://www.thirdeyevis.com/pi-page-2.php
