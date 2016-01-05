@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>MJPG-Streamer - Stream Example</title>
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+  </head>
+  <body>
+    <center>    
+      <img src="/?action=stream" />
+    <center>
+    <!-- Include the PubNub Library -->
+    <script src="https://cdn.pubnub.com/pubnub-dev.js"></script>
+    <!-- Instantiate PubNub -->
+    <script type="text/javascript">
+  
+        var PUBNUB_demo = PUBNUB.init({
+            publish_key: 'pub-c-39a0df8f-dc21-4a0c-84a9-ad761fba444d',
+            subscribe_key: 'sub-c-1a83fbaa-af8e-11e5-8d24-0619f8945a4f'
+        });
+  
+    </script>
+  </body>
+</html>
