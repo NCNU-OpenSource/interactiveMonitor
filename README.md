@@ -89,3 +89,5 @@ studio.sh
 - https://www.youtube.com/watch?v=2QL5k235258
 - http://www.raspberrypi-spy.co.uk/2012/12/ultrasonic-distance-measurement-using-python-part-1/
 - http://www.thirdeyevis.com/pi-page-2.php
+- http://stackoverflow.com/questions/22575532/how-to-take-picture-with-mjpg-streamer
+- http://stackoverflow.com/questions/2467609/using-wget-via-python
