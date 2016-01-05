@@ -12,7 +12,7 @@ Python, Shell Script
 紅外線感測器出狀況(接受訊息不穩定) : 改用超聲波感測器加程式碼
 無獨立Public IP無法從外界查看監視器(但能從APP收到人體偵測推送提示)：在校內示範
 Android推送需加入GCM服務，時間與能力上的不足：PushBullet提供免費簡單推送API
-影像串流無法與拍照同時使用Webcam：尚無解決方法
+影像串流無法與拍照同時使用Webcam：使用mjpg-streamer內建抓圖功能
 時間不足：
 ```
 
