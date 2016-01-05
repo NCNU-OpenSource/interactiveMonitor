@@ -1,5 +1,20 @@
-# interactiveMonitor
+### InteractiveMonitor
 互動式監控系統
+
+####發想緣起
+
+####使用語法
+```
+Python, Shell Script
+```
+####困境與解決
+```
+紅外線感測器出狀況(接受訊息不穩定) : 改用超聲波感測器加程式碼
+無獨立Public IP無法從外界查看監視器(但能從APP收到人體偵測推送提示)：在校內示範
+Android推送需加入GCM服務，時間與能力上的不足：PushBullet提供免費簡單推送API
+影像串流無法與拍照同時使用Webcam：使用mjpg-streamer內建抓圖功能
+時間不足：
+```
 
 ####實做材料
 材料|成本
@@ -71,3 +86,9 @@ studio.sh
 - http://askubuntu.com/questions/814/how-to-run-scripts-on-start-up
 - https://developer.chrome.com/multidevice/webview/gettingstarted
 - http://www.w3schools.com/css/tryit.asp?filename=tryresponsive_image3
+- https://www.youtube.com/watch?v=2QL5k235258
+- http://www.raspberrypi-spy.co.uk/2012/12/ultrasonic-distance-measurement-using-python-part-1/
+- http://www.thirdeyevis.com/pi-page-2.php
+- http://stackoverflow.com/questions/22575532/how-to-take-picture-with-mjpg-streamer
+- http://stackoverflow.com/questions/2467609/using-wget-via-python
+- http://stackoverflow.com/questions/9860680/python-overwrite-previous-line
