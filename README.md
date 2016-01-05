@@ -91,3 +91,4 @@ studio.sh
 - http://www.thirdeyevis.com/pi-page-2.php
 - http://stackoverflow.com/questions/22575532/how-to-take-picture-with-mjpg-streamer
 - http://stackoverflow.com/questions/2467609/using-wget-via-python
+- http://stackoverflow.com/questions/9860680/python-overwrite-previous-line
