@@ -14,6 +14,7 @@ import time
 import RPi.GPIO as GPIO
 import os
 import sys
+import urllib
 
 print "Ultrasonic Measurement"
 
@@ -60,10 +61,11 @@ while True:
     # That was the distance there and back so halve the value
     distance = distance / 2
 
-    sys.stdout.write("Distance : %.1f" % distance)
+    sys.stdout.write("\rDistance : %.1f" % distance)
     sys.stdout.flush()
 
     if distance<=50:
+        urllib.urlretrieve("http://10.32.21.164:8080/?action=snapshot", filename="/var/www/output.jpg")
         os.system('/home/pi/Pushbullet.sh "Human Detected. Watch your monitor at http://www.interactivemonitor.com"')
         if GPIO.input(18) == False:
             print "Light On"
