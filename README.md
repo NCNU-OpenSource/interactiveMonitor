@@ -92,3 +92,4 @@ studio.sh
 - http://stackoverflow.com/questions/22575532/how-to-take-picture-with-mjpg-streamer
 - http://stackoverflow.com/questions/2467609/using-wget-via-python
 - http://stackoverflow.com/questions/9860680/python-overwrite-previous-line
+- http://stackoverflow.com/questions/3916330/android-webview-webpage-should-fit-the-device-screen
