@@ -32,6 +32,11 @@ Raspberry Pi|免費(LSA提供)
 LED燈|巴西友情贊助
 線材|孟儒友情贊助
 
+####分工
+```
+展維：模組採購、電路連接、模組測試
+昱恆：APP撰寫、即時訊息推送、整合模組功能、軟體測試
+```
 ####拍照軟體(fswebcam)
 ```
 sudo apt-get install fswebcam
