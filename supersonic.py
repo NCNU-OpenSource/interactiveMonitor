@@ -65,17 +65,21 @@ while True:
     sys.stdout.flush()
 
     if distance<=50:
-        urllib.urlretrieve("http://10.32.21.164:8080/?action=snapshot", filename="/var/www/output.jpg")
-        os.system('/home/pi/Pushbullet.sh "Human Detected. Watch your monitor at http://www.interactivemonitor.com"')
         if GPIO.input(18) == False:
-            print "Light On"
+            sys.stdout.write("\rLED On")
+            sys.stdout.flush()
             GPIO.cleanup()
             GPIO.setmode(GPIO.BOARD)
             GPIO.setup(11,GPIO.OUT)
             GPIO.output(11,True)
             time.sleep(5)
+            urllib.urlretrieve("http://10.32.21.164:8080/?action=snapshot", filename="/var/www/output.jpg")
             GPIO.output(11,False)
-            print "LED Off"
+            sys.stdout.write("\rLED Off")
+            sys.stdout.flush()
+        else:
+            urllib.urlretrieve("http://10.32.21.164:8080/?action=snapshot", filename="/var/www/output.jpg")
+        os.system('/home/pi/Pushbullet.sh "Human Detected. Watch your monitor at http://www.interactivemonitor.com"')
 
     # Reset GPIO settings
     GPIO.cleanup()
