@@ -9,7 +9,7 @@
 ```
 ####使用語法
 ```
-Python, Shell Script
+Python, Shell Script, XML, Java
 ```
 ####困境與解決
 ```
