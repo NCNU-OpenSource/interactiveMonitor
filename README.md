@@ -17,7 +17,7 @@ Python, Shell Script, XML, Java
 無獨立Public IP無法從外界查看監視器(但能從APP收到人體偵測推送提示)：在校內示範
 Android推送需加入GCM服務，時間與能力上的不足：PushBullet提供免費簡單推送API
 影像串流無法與拍照同時使用Webcam：使用mjpg-streamer內建抓圖功能
-時間不足：
+無法控制單一USB孔電源開關模擬LED燈開關：使用面包板GPIO接上小LED來模擬
 ```
 
 ####實做材料
