@@ -32,6 +32,9 @@ Raspberry Pi|免費(LSA提供)
 LED燈|巴西友情贊助
 線材|孟儒友情贊助
 
+####模組整合
+![整合](https://github.com/NCNU-OpenSource/interactiveMonitor/blob/master/images/IMG1.jpg)
+
 ####分工
 ```
 展維：模組採購、電路連接、模組測試
