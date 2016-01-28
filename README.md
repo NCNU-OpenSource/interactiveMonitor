@@ -34,6 +34,7 @@ LED燈|巴西友情贊助
 
 ####模組整合
 ![整合](https://github.com/NCNU-OpenSource/interactiveMonitor/blob/master/images/IMG1.jpg)
+![線路串接](https://github.com/NCNU-OpenSource/interactiveMonitor/blob/master/images/IMG2.jpg)
 
 ####分工
 ```
